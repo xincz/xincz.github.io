@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T15:22:39.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.6" etag="82zvGHQ5EKnug_zRIOxq" type="github"><diagram id="pMp6YSTTtzM_NJOzA2fS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-03T15:34:13.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="xbPfT_2BgEt3_RBya0cQ" version="14.5.6" type="github">
+  <diagram id="pMp6YSTTtzM_NJOzA2fS" name="Page-1">
+    <mxGraphModel dx="748" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FfEpJe8ueplYhd8HVw07-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;空间配置器 Allocator&lt;/b&gt;&lt;br&gt;std::allocator&lt;br&gt;malloc_allocator&lt;br&gt;default_allocator&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;容器 Container&lt;/b&gt;&lt;br&gt;Sequence Containers&lt;br&gt;Associative Containers&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-3" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;迭代器 Iterator&lt;br&gt;&lt;/b&gt;Container&amp;lt;T&amp;gt;::iterator&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-4" value="&lt;font style=&quot;font-size: 16px&quot;&gt;insert iterators&lt;br&gt;stream iterators&lt;br&gt;reverse iterators&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="40" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;算法 Algorithm&lt;/b&gt;&lt;br&gt;Basic mutating algorithms&lt;br&gt;Non-mutating algorithms&lt;br&gt;Sorting and search algorithms&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;仿函数 Functor&lt;/b&gt;&lt;br&gt;Arithmetic operations&lt;br&gt;Comparisons&lt;br&gt;Logical operations&lt;br&gt;Identity and projection&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-7" value="&lt;span style=&quot;font-size: 16px&quot;&gt;binder1st, binder2nd&lt;br&gt;unary_negate, binary_negate&lt;br&gt;unary_compose, binary_compose&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Functor adaptors&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FfEpJe8ueplYhd8HVw07-9" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Iterator adaptors&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
